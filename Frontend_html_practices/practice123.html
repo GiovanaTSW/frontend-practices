@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <style>
+            .container-row {
+                display: flex;
+                flex-direction: row;
+                border: 1px dashed red;
+                margin-bottom: 1px;
+            }
+
+            .container-column {
+                display: flex;
+                flex-direction: column;
+                border: 1px solid blue;
+            }
+
+            p {
+                border: 1px solid rgb(150, 150, 150);
+                padding: 8px;
+                margin: 5px;
+                font-size: 18px;
+            }
+
+            h2 {
+                border: 1px dotted purple;
+                box-shadow: 5px 6px #000000;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h2>This is a row flex container</h2>
+        <div class="container-row">
+            <p>Item 1</p>
+            <p>Item 2</p>
+            <p>Item 3</p>
+        </div>
+
+        <h2>This is a column flex container</h2>
+        <div class="container-column">
+            <p>Item 1</p>
+            <p>Item 2</p>
+            <p>Item 3</p>
+        </div>
+    </body>
+</html>

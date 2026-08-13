@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <style>
+            #wrap {
+                padding: 20px;
+                margin-bottom: 10px;
+                border: 1px solid rgb(189, 185, 185);
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            #nowrap {
+                padding: 20px;
+                border: 1px solid rgb(189, 185, 185);
+                display: flex;
+                flex-wrap: nowrap;
+            }
+
+            button {
+                border: 1px solid rgb(189,185, 185);
+                box-shadow: 0 2px 4px #000000;
+                background-color: rgb(247, 228, 203);
+                margin: 5px;
+                font-size: 30px;
+            }
+
+            p {
+                font-size: 24px;
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: blueviolet;
+                color: #FFFFFF;
+            }
+        </style>
+    </head>
+
+    <body>
+        <p>Items that do not wrap to the next line: </p>
+        <div id="nowrap">
+            <button>Submit</button>
+            <button>Revert</button>
+            <button>Delete all</button>
+        </div>
+        <p>Items that wrap to the next line if needed:</p>
+        <div class="wrap">
+            <button>Submit</button>
+            <button>Revert</button>
+            <button>Delete all</button>
+        </div>
+    </body>
+</html>
