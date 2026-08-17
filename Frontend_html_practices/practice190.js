@@ -1,0 +1,4 @@
+function ckeckTicked() {
+    let box = document.getElementById("c1");
+    console.log(box.checked);
+}
